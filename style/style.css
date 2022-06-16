@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav Bar */
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px 5px;
+}
+.search{
+    margin: 0 60px 0 45px;
+}
+.needSpaceHere{
+    padding-right: 20px;
+}
+input{
+    border: 2px solid grey;
+}
+input:hover{
+    border: 2px solid turquoise;
+}
+.userImage{
+    padding-left: 40px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    margin: 0 25px;
+}
+.search{
+    border-radius: 2em;
+    padding: 5px 10em;
+    margin-right: 5px;
+}
+
+/* Mail Box Nav Bar */
+.mailContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.navBodyContainer{
+    margin-right: 25px;
+    border-right: 1px solid rgb(237, 234, 234);
+    padding-right: 25px;
+}
+.navBody li{
+    margin: 0 0 25px 0;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    color: turquoise;
+}
+.compose{
+    border: 2px solid rgb(224, 223, 223);
+    border-radius: 2em;
+    padding: 10px;
+    background-color:rgb(237, 234, 234);
+}
+
+/* Mail Box Body */
+.mailBody{
+    width: 25%;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+button{
+    border: 1px solid turquoise;
+    border-radius: 2em;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(178, 254, 254);
+}
+button:hover{
+    cursor: pointer;
+    background-color: turquoise;
+}
+h2{
+    padding-left: 40px;
+}
+#MAIL li{
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid rgb(237, 234, 234);
+}
+#MAIL li:hover{
+    background-color:rgb(178, 254, 254);
+    cursor: pointer;
+}
+#MESSAGE li{
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid rgb(237, 234, 234);
+}
+#MESSAGE li:hover{
+    background-color:rgb(178, 254, 254);
+    cursor: pointer;
+}
+.mailBodyTwo ul{
+    padding-left: 0;
+}
+.mailBodyTwo h2{
+    padding-left: 0;
+}

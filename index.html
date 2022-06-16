@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/353829b83c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>E-Mail</title>
+</head>
+<body>
+    <section class="searchBarContainer">
+        <ul class="searchBar">
+            <li><img src="./assets/emailLogo.jpg" alt="E-Mail" class="logo"></li> 
+            <li class="search"><input class="search" type="text"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li> 
+            <li class="needSpaceHere"><a href=""><i class="fa-solid fa-circle-question"></i></a></li> 
+            <li><a href=""><i class="fa-solid fa-gear"></i></a></li> 
+            <li class="userImage"><a href=""><img src="./assets/userImage.jpg" alt="User Image"></a></li> 
+        </ul>
+    </section>
+    
+    <section class="mailContainer">
+
+        <section class="navBodyContainer">
+            <ul class="navBody">
+                <li class="compose"><a href=""><i class="fa-solid fa-plus"></i> Compose</a><li>
+                <li><a href="">Inbox</a></li> 
+                <li><a href="">Starred</a></li> 
+                <li><a href="">Snoozed</a></li> 
+                <li><a href="">Sent</a></li> 
+                <li><a href="">Drafts</a></li> 
+                <li><a href="">Junk</a></li> 
+                <li><a href="">Notes</a></li> 
+                <li><a href="">More</a></li> 
+            </ul>
+        </section>
+
+        <section class="mailBody">
+            <h2>From:</h2>
+            <ul id="MAIL" class="highlight"></ul>
+        </section>
+        <section class="mailBodyTwo">
+            <h2> Message:</h2>
+            <ul id="MESSAGE" class="highlight">
+            </ul>
+        </section>
+
+    </section>
+    <section class="buttonContainer">
+        <button> Receive Mail</button>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
